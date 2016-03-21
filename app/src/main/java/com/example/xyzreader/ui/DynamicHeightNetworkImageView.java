@@ -6,6 +6,8 @@ import android.util.AttributeSet;
 import com.android.volley.toolbox.NetworkImageView;
 
 public class DynamicHeightNetworkImageView extends NetworkImageView {
+
+    // TODO: Override aspect ration in onMeasure?
     private float mAspectRatio = 1.5f;
 
     public DynamicHeightNetworkImageView(Context context) {
