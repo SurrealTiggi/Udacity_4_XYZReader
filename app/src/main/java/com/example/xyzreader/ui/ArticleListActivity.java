@@ -54,9 +54,6 @@ public class ArticleListActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
-        // ACTUAL RUBRIC TASKS:
-        // TODO: Specify elevation for all elements
-        // TODO: Images must be high quality and full bleed
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);

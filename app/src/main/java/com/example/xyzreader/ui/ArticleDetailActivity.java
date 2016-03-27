@@ -23,10 +23,6 @@ import com.example.xyzreader.data.ItemsContract;
 /**
  * An activity representing a single Article detail screen, letting you swipe between articles.
  */
-
-// TODO: Expand title art properly over the top of the screen
-// TODO: Change background colors to make reading easier and more upbeat coloring
-// TODO: Add elevation to share button and move it elsewhere
 public class ArticleDetailActivity extends ActionBarActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
 
