@@ -55,11 +55,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
         // ACTUAL RUBRIC TASKS:
-        // TODO: Check that I'm using Design Support Library and provided widgets
-        // TODO: Use an appbar and toolbars
-        // TODO: Floating action button for common actions
         // TODO: Specify elevation for all elements
-        // TODO: Space text and elements correctly
         // TODO: Images must be high quality and full bleed
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
